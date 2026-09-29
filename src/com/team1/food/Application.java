@@ -23,30 +23,30 @@ public class Application {
                     break;
                 default:
                     System.out.println("없는 메뉴입니다. 다시 선택하세요.");
+                case 2:
+                    System.out.println("목표 칼로리는 얼마입니까?");
+                    Scanner g = new Scanner(System.in);
+                    int goal = g.nextInt();
+
+                    System.out.println("먹은 칼로리는 얼마입니까?");
+                    Scanner e = new Scanner(System.in);
+                    int eaten = e.nextInt();
+
+                    System.out.println("목표 칼로리 : " + goal);
+                    System.out.println("먹은 칼로리 : " + eaten);
+                    if (goal- eaten > 0) {
+                        System.out.println((goal - eaten) + " kcal 더 먹을 수 있습니다");
+                    }
+                    else if (goal - eaten == 0) {
+                        System.out.println("목표를 정확히 채웠습니다");
+                    }
+                    else {
+                        System.out.println((eaten-goal) + " kcal 초과했습니다");
+                    }
+
             }
             System.out.println();
 
         } while (menu != 0);
     }
-        public void Subtract() {
-            System.out.println("목표 칼로리는 얼마입니까?");
-            Scanner g = new Scanner(System.in);
-            int goal = g.nextInt();
-
-            System.out.println("먹은 칼로리는 얼마입니까?");
-            Scanner e = new Scanner(System.in);
-            int eaten = e.nextInt();
-
-            System.out.println("목표 칼로리 : " + goal);
-            System.out.println("먹은 칼로리 : " + eaten);
-            if (goal- eaten > 0) {
-                System.out.println((goal - eaten) + " kcal 더 먹을 수 있습니다");
-            }
-            else if (goal - eaten == 0) {
-                System.out.println("목표를 정확히 채웠습니다");
-            }
-            else {
-                System.out.println((eaten-goal) + " kcal 초과했습니다");
-            }
     }
-}
