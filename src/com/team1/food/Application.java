@@ -11,6 +11,7 @@ public class Application {
 
         do {
             System.out.println("===== [버그걸림] 식단 계산기 =====");
+            System.out.println("2. 남은 칼로리 계산");
             // (1) 각자 자기 메뉴 한 줄 추가
             System.out.println("0. 종료");
             System.out.print("메뉴 선택 : ");
