@@ -48,6 +48,7 @@ public class Application {
                     System.out.println(
                             "오늘 먹은 칼로리는 " + total + " kcal 입니다."
                     );
+                    break;
                    
                 case 2:
                     System.out.println("목표 칼로리는 얼마입니까?");
@@ -61,6 +62,7 @@ public class Application {
                     System.out.println("목표 칼로리 : " + goal);
                     System.out.println("먹은 칼로리 : " + eaten);
                     mcal.MinusJudge(minusresult);
+                    break;
             
                   case 3: 
                     System.out.print("1인분 칼로리 : ");
@@ -69,17 +71,20 @@ public class Application {
                     int people = sc.nextInt();
                     MultiplyCalculator multiplyCalculator = new MultiplyCalculator();
                     multiplyCalculator.printTable(kcal, people);
+                    break;
                    
                   case 4:
                     System.out.println("더치페이를 선택하셨습니다.");
                     System.out.print("음식 가격 입력 : ");
                     int foodprice = sc.nextInt();
                     System.out.print("총 인원 수 : ");
-                    int people = sc.nextInt();
-                    Application04 app4 = new Application04();
-                    double pay= app4.divideCalculator(foodprice, people);
+                    int count = sc.nextInt();
+                    DivideCalculator app4 = new DivideCalculator();
+                    double pay= app4.divideCalculator(foodprice, count);
 
                     System.out.println("1인당 : " + pay + "원 입니다.");
+
+                    break;
                   
                 default:
                     System.out.println("없는 메뉴입니다. 다시 선택하세요.");
