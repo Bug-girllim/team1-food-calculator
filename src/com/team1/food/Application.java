@@ -71,11 +71,7 @@ public class Application {
                     MultiplyCalculator multiplyCalculator = new MultiplyCalculator();
                     multiplyCalculator.printTable(kcal, people);
                     break;
-<<<<<<< HEAD
 
-=======
-                   
->>>>>>> 8b5be9be8e616330c427f3d49f0f8826ce639c84
                   case 4:
                     System.out.println("더치페이를 선택하셨습니다.");
                     System.out.print("음식 가격 입력 : ");
@@ -86,10 +82,7 @@ public class Application {
                     double pay= app4.divideCalculator(foodprice, count);
 
                     System.out.println("1인당 : " + pay + "원 입니다.");
-<<<<<<< HEAD
-=======
 
->>>>>>> 8b5be9be8e616330c427f3d49f0f8826ce639c84
                     break;
                   
                 default:
