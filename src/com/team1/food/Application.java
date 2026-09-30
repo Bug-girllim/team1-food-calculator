@@ -20,9 +20,8 @@ public class Application {
             switch (menu) {
                 // (2) 각자 자기 case 블록 추가
                 case 3: {
-                    int kcal;
                     System.out.print("1인분 칼로리 : ");
-                    kcal = sc.nextInt();
+                    int kcal = sc.nextInt();
                     System.out.print("몇 인분까지 : ");
                     int people = sc.nextInt();
                     MultiplyCalculator multiplyCalculator = new MultiplyCalculator();
