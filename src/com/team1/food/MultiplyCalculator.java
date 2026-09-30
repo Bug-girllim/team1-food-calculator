@@ -12,7 +12,4 @@ public class MultiplyCalculator {
             System.out.println(i + "인분 : " + multiply(kcal, i) + "kcal");
         }
     }
-
-    public void
-
 }
