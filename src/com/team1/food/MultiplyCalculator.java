@@ -12,5 +12,8 @@ public class MultiplyCalculator {
             System.out.println(i + "인분 : " + multiply(kcal, i) + "kcal");
         }
     }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 6d3fc49d7bc032e3cdfbd3b349db6f629f6b204c
 }
