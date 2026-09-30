@@ -6,7 +6,7 @@ public class Application {
 
     public static void main(String[] args) {
 
-        Application app = new Application();
+        MinusCalculator mcal = new MinusCalculator();
 
         Scanner sc = new Scanner(System.in);
         int menu;
@@ -33,30 +33,17 @@ public class Application {
                     System.out.println("먹은 칼로리는 얼마입니까?");
                     int eaten = sc.nextInt();
 
-                    int minusresult = app.MinusCalculator(goal, eaten);
+                    int minusresult = mcal.MinusCalculator(goal, eaten);
                     System.out.println("메뉴 선택 : 2");
                     System.out.println("목표 칼로리 : " + goal);
                     System.out.println("먹은 칼로리 : " + eaten);
-                    app.MinusJudge(minusresult);
+                    mcal.MinusJudge(minusresult);
             }
             System.out.println();
 
         } while (menu != 0);
     }
-    public int MinusCalculator (int a, int b) {
-        return (a - b);
-    }
 
-    public void MinusJudge (int a) {
-        if (a > 0) {
-            System.out.println(a + " kcal 더 먹을 수 있습니다.");
-        }
-        else if (a == 0) {
-            System.out.println("목표를 정확히 채웠습니다.");
-        }
-        else {
-            System.out.println(Math.abs(a) + " kcal 초과했습니다.");
-        }
-        }
+
     }
 
