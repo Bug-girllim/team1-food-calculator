@@ -11,12 +11,12 @@ public class Application {
         Scanner sc = new Scanner(System.in);
 
         int menu;
-
         do {
             System.out.println("===== [버그걸림] 식단 계산기 =====");
             System.out.println("2. 남은 칼로리 계산");
             // (1) 각자 자기 메뉴 한 줄 추가
             System.out.println("0. 종료");
+            System.out.println("4. 더치페이");
             System.out.println("1. 하루 총 칼로리 계산");
             System.out.print("메뉴 선택 : ");
 
@@ -46,6 +46,17 @@ public class Application {
 
                 case 0:
                     System.out.println("계산기를 종료합니다.");
+                    break;
+                case 4:
+                    System.out.println("더치페이를 선택하셨습니다.");
+                    System.out.print("음식 가격 입력 : ");
+                    int foodprice = sc.nextInt();
+                    System.out.print("총 인원 수 : ");
+                    int people = sc.nextInt();
+                    Application04 app4 = new Application04();
+                    double pay= app4.divideCalculator(foodprice, people);
+
+                    System.out.println("1인당 : " + pay + "원 입니다.");
                     break;
 
                 default:
