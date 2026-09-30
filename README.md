@@ -23,5 +23,7 @@
 ## 협업하며 배운 점
 
 - 변수명은 안겹치게 미리 합의를 보자
-- 모든 PR 본문에 closes #N 을 추가해야지 merge 후 Issue가 닫힌다 ( 이번에는 우리가 수동으로 닫음)
+- 모든 PR 본문에 closes #N 을 추가해야지 merge 후 Issue가 닫힌다 ( 이번에는 우리가 수동으로 닫음) merge를 했지만 이슈가 남았음
+  <img width="1508" height="1000" alt="re" src="https://github.com/user-attachments/assets/0411f9f3-57ba-4463-95dc-fdf009b6937c" />
+
 
