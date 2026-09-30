@@ -1,4 +1,4 @@
-<img width="526" height="358" alt="image" src="https://github.com/user-attachments/assets/c57c8eb0-cb4a-4a35-a92d-701c673082b4" /># 자취생 식단 계산기 (1팀)
+
 
 혼자 밥 해 먹는 사람을 위한 계산기입니다. 하루 칼로리를 관리하고, 재료를 n인분으로 환산하고, 배달비를 나눕니다.
 
@@ -13,6 +13,7 @@
 
 ## 실행 화면
 
+<img width="526" height="358" alt="image" src="https://github.com/user-attachments/assets/c57c8eb0-cb4a-4a35-a92d-701c673082b4" /># 자취생 식단 계산기 (1팀)
 
 
 ## 충돌 해결 기록
